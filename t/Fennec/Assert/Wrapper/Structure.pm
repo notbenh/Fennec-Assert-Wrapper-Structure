@@ -2,6 +2,7 @@ package TEST::Fennec::Assert::Wrapper::Structure;
 use strict;
 use warnings;
 use Fennec;
+use Carp::Always;
 
 require_or_skip Test::Structure;
 
@@ -12,4 +13,6 @@ tests load {
                       has_comments
                       has_pod
                      });
+   
 };
+

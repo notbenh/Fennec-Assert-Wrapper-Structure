@@ -5,7 +5,7 @@ use strict;
 
 use Fennec::Assert;
 use Fennec::Output::Result;
-require Test::Structure;
+use Test::Structure;
 
 =head1 NAME
 
