@@ -9,6 +9,8 @@ my $builder = Module::Build->new(
     dist_version_from   => 'lib/Fennec/Assert/Wrapper/Structure.pm',
     build_requires => {
         'Test::More' => 0,
+        'Fennec'     => 0,
+        'Test::Structure' => 0,
     },
     add_to_cleanup      => [ 'Fennec-Assert-Wrapper-Structure-*' ],
     create_makefile_pl => 'traditional',

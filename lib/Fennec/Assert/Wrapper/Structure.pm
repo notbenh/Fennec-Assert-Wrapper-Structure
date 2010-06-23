@@ -13,11 +13,11 @@ Fennec::Assert::Wrapper::Structure - Fennec wrapper for L<Test::Structure>
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 for my $name ( qw{has_includes has_subs has_comments has_pod} ) {
     no strict 'refs';

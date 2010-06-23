@@ -6,3 +6,6 @@ lib/Fennec/Assert/Wrapper/Structure.pm
 t/manifest.t
 t/Fennec.t
 t/Fennec/Assert/Wrapper/Structure.pm
+ignore.txt
+Makefile.PL
+META.yml
